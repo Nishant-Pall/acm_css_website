@@ -5,7 +5,7 @@ body {
 .header {
   padding: 80px;
   text-align: center;
-  background: #1abc9c;
+  background: #111111;
   color: white;
 }
 
@@ -36,35 +36,12 @@ body {
   color: black;
 }
 
-
-* {
-  box-sizing: border-box;
-}
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.side {
-  flex: 30%;
-  background-color: #f1f1f1;
-  padding: 20px;
-}
-
 .main {
-  flex: 70%;
   background-color: white;
   padding: 20px;
 }
 
 /* Responsive layout so that website looks good on all devices */
-@media screen and (max-width: 700px) {
-  .row {
-    flex-direction: column;
-  }
-}
-
 @media screen and (max-width: 400px) {
   .navbar a {
     float: none;
@@ -72,7 +49,8 @@ body {
   }
 }
 
-.footer {
+.footer, .push {
+  height: 142px;
   padding: 20px;
   text-align: center;
   background: #ddd;
@@ -83,3 +61,219 @@ body {
     width: 70%;
     margin: auto;
   }
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.main {
+  background-color: #e9e9e9;
+  background-image: url(https://sites.google.com/site/carolinacsfirst/unit/home/websites/moodboardbg.jpg);
+  background-repeat: repeat;
+  color: #000;
+}
+
+#event-board {
+  position: relative;
+  width: 700px;
+  height: 900px;
+  border: 15px solid #130d02;
+  margin: 0 auto;
+  background-color: #706b6d;
+  /* background-image: url(https://sites.google.com/site/carolinacsfirst/unit/home/websites/corkboard.jpg); */
+  /* background-repeat: repeat; */
+  box-shadow: 5px 5px 5px rgba(0,0,0,.4);
+}
+
+.post-it-note,.polaroid {
+  position: absolute;
+  box-shadow: 3px 3px 2px rgba(0,0,0,.4);
+}
+
+.post-it-note {
+  width: 230px;
+  height: 230px;
+  padding: 20px;
+  font-family: Neucha, serif;
+  background-color: #e8dd62;
+}
+
+.yellow {
+  background-color: #e8dd62;
+}
+
+.red {
+  background-color: #d23838;
+}
+
+.blue {
+  background-color: #5c97ee;
+}
+
+p,h1,h2,h3,h4,h5 {
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 16px;
+}
+
+.polaroid {
+  padding: 10px;
+  margin: 0;
+  background: #FFF;
+  display: inline-block;
+}
+
+.polaroid img {
+  max-width: 250px;
+}
+
+.polaroid figcaption {
+  font-family: Neucha, sans-serif;
+}
+
+.pin {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  -webkit-box-shadow: 2px 2px 2px rgba(0,0,0,.3);
+  box-shadow: 2px 2px 2px rgba(0,0,0,.3);
+  border-radius: 20px;
+}
+
+#note-1 {
+  top: 2%;
+  left: 35%;
+}
+
+#note-2 {
+  top: 20%;
+  right: 2%;
+}
+
+#note-3 {
+  bottom: 10%;
+  left: 16%;
+  transform: rotate(2deg);
+  -ms-transform: rotate(2deg);
+  -webkit-transform: rotate(2deg);
+}
+
+#picture-1 {
+  left: 3%;
+  top: 30%;
+  transform: rotate(2deg);
+  -ms-transform: rotate(2deg);
+  -webkit-transform: rotate(2deg);
+}
+
+#picture-2 {
+  bottom: 10%;
+  right: 10%;
+  transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  -webkit-transform: rotate(-3deg);
+}
+
+/* HONEYCOMB */
+@import url(https://fonts.googleapis.com/css?family=Lato:300);
+
+section {
+  margin: 0 auto;
+  text-align: center;
+  width: 960px;
+}
+
+.hex_row_even {
+  display: inline-block;
+  margin: 0 auto -275px auto;
+  overflow: hidden;
+}
+
+.hex_row_odd {
+  display: inline-block;
+  margin: 0 auto -275px auto;
+  overflow: hidden;
+}
+
+.center {
+  float: left;
+  margin: 20px 10px;
+  width: 220px;
+}
+
+.hexagon {
+  -moz-transform: rotate(120deg);
+  -ms-transform: rotate(120deg);
+  -webkit-transform: rotate(120deg);
+  transform: rotate(120deg);
+  cursor: pointer;
+  height: 440px;
+  overflow: hidden;
+  visibility: hidden;
+  width: 220px;
+}
+
+.hex1 {
+  -moz-transform: rotate(-60deg);
+  -ms-transform: rotate(-60deg);
+  -webkit-transform: rotate(-60deg);
+  transform: rotate(-60deg);
+  height: 100%;
+  overflow: hidden;
+  width: 100%;
+}
+
+.hex2 {
+  -moz-transform: rotate(-60deg);
+  -ms-transform: rotate(-60deg);
+  -webkit-transform: rotate(-60deg);
+  transform: rotate(-60deg);
+  height: 100%;
+  position: relative;
+  visibility: visible;
+  width: 100%;
+}
+
+.desc {
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5em;
+  font-weight: 300;
+  height: 440px;
+  line-height: 1.5em;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  visibility: visible;
+  width: 220px;
+}
+.desc.base {
+  background: rgba(230, 0, 98, 0.75);
+}
+.desc.one {
+  background: rgba(252, 171, 55, 0.75);
+}
+.desc.two {
+  background: rgba(169, 160, 50, 0.75);
+}
+.desc.three {
+  background: rgba(83, 70, 54, 0.75);
+}
+.desc h2 {
+  margin: 165px 20px 0 20px;
+}
+.desc p {
+  font-size: .8em;
+  text-transform: lowercase;
+}
