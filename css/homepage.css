@@ -74,7 +74,8 @@ body {
 
 .footer,
 .push {
-  margin-top: 220px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   height: 142px;
   padding: 20px;
   text-align: center;
