@@ -96,9 +96,9 @@ body {
 }
 
 .post-it-note {
-  width: 230px;
-  height: 230px;
-  padding: 20px;
+  width: 250px;
+  height: 250px;
+  padding: 15px;
   font-family: Neucha, serif;
   background-color: #e8dd62;
 }
@@ -164,8 +164,8 @@ p {
 }
 
 #note-2 {
-  top: 20%;
-  right: 2%;
+  top: 27%;
+  right: 3%;
 }
 
 #note-3 {
@@ -178,15 +178,15 @@ p {
 
 #picture-1 {
   left: 3%;
-  top: 30%;
+  top: 35%;
   transform: rotate(2deg);
   -ms-transform: rotate(2deg);
   -webkit-transform: rotate(2deg);
 }
 
 #picture-2 {
-  bottom: 10%;
-  right: 10%;
+  bottom: 7%;
+  right: 9%;
   transform: rotate(-3deg);
   -ms-transform: rotate(-3deg);
   -webkit-transform: rotate(-3deg);
