@@ -4,14 +4,15 @@
     <meta charset="utf-8" />
     <title>ACM CSS</title>
     <link rel="stylesheet" href="css/homepage.css" />
+    <link rel="stylesheet" href="css/footer.css"/>
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     />
   </head>
   <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-      <a class="navbar-brand" href="#successEvents"
+    <nav id="home" class="navbar navbar-expand-md navbar-dark bg-dark">
+      <a class="navbar-brand" href="#home"
         ><img
           class="rounded-circle"
           src="images/acmcss.png"
@@ -30,19 +31,16 @@
       <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
           <li class="nav-item">
-            <a class="nav-link" href="#successEvents">Home</a>
+            <a class="nav-link" href="#home">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#event-board">Events</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#note-3">Workshops</a>
+            <a class="nav-link" href="#workshops">Workshops</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#projects">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
+            <a class="nav-link" href="#footer">About</a>
           </li>
         </ul>
       </div>
@@ -200,7 +198,7 @@
       </div>
     </div>
 
-    <section id="#projects" style="margin-block-end: 300px">
+    <section id="workshops" style="margin-block-end: 300px">
       <div class="hex_row_odd">
         <div class="center">
           <div class="hexagon">
@@ -410,10 +408,42 @@
       </div>
       <!--/hex_row_even-->
     </section>
-    <div id="about" class="footer">
+    <div id="footer" class="footer-div">
+        <div class="container">
+          <div class="row text-center text-xs-center text-sm-left text-md-left">
+            <div class="col-xs-12 col-sm-4 col-md-4">
+              <h5>Quick links</h5>
+              <ul class="list-unstyled quick-links">
+                <li><a href="#home"><i class="fa fa-angle-double-right"></i>Home</a></li>
+                <li><a href="#event-board"><i class="fa fa-angle-double-right"></i>Events</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+              <ul class="list-unstyled list-inline social text-center">
+                <li class="list-inline-item"><a href="https://www.facebook.com/pecacm/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                <li class="list-inline-item"><a href="https://www.instagram.com/pecacm/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                <li class="list-inline-item"><a href="https://twitter.com/ACM_CSS_PEC/" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                <li class="list-inline-item"><a href="https://www.linkedin.com/in/pecacm/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                <li class="list-inline-item"><a href="mailto:acmcss@pec.edu.in?Subject=Contact%20PEC%20ACM%20Student%20Chapter" target="_blank"><i class="fa fa-envelope"></i></a></li>
+              </ul>
+            </div>
+            </hr>
+          </div>	
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+              <p>Punjab Engineering College ACM Student Chapter is registered [178630] under <u><a href="https://www.acm.org/" target="_blank">Association for Computing Machinery</a></u></p>
+              <p class="h6">&copy All right Reversed.<a class="text-green ml-2" href="https://www.pecacm.org/" target="_blank">PEC ACM Student Chapter</a></p>
+            </div>
+            </hr>
+          </div>	
+        </div>
+      </div>
+    <!-- <div id="about" class="footer">
       <h2>For any Queries contact</h2>
       <h4>acmcss@pec.edu.in</h4>
-    </div>
+    </div> -->
     <script src="js/vendor/jquery-3.4.1.min.js"></script>
     <script src="js/homepage.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
