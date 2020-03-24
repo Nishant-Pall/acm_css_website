@@ -295,6 +295,12 @@ section {
 .desc h2 {
   margin: 165px 20px 0 20px;
 }
+.desc h3 {
+  margin: 165px 20px 0 20px;
+}
+.desc h4 {
+  margin: 165px 20px 0 20px;
+}
 .desc p {
   font-size: 0.8em;
   text-transform: lowercase;
