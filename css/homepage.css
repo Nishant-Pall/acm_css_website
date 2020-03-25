@@ -6,7 +6,7 @@ body {
   padding: 10px 50px 10px 50px;
   text-align: center;
   background: #111111;
-  background-image: url(../images/header2.jpg);
+  background-image: url(../images/header3.jpg);
   background-repeat: repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -15,7 +15,7 @@ body {
 
 .bg-dark {
   /* background: none; */
-  /* background-image: url(../images/header2.jpg); */
+  /* background-image: url(../images/header3.jpg); */
   background-repeat: repeat;
 }
 
